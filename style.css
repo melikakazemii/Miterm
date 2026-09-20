@@ -1,0 +1,201 @@
+:root {
+  --color-primary-white: #f5f9ff;
+  --color-primary-base: #e4e4e4;
+  --color-pimary-gray: #6f7788;
+  --color-primary-green: #1c623a;
+  --color-primary-yellow: #dca11d;
+  --color-primary-pink: #d75951;
+  --color-primary-brow: #683e00;
+  --color-blou-block: #1d2939;
+  --color-blou-white: #3a4980;
+  --color-blou-lite: #0d3356;
+  --color-blou: #0d3356;
+  --text-12: 12px;
+  --text-14: 14px;
+  --text-16: 16px;
+  --text-18: 18px;
+  --text-20: 20px;
+  --text-24: 24px;
+  --text-28: 28px;
+  --text-34: 34px;
+  --text-36: 36px;
+  --text-44: 44px;
+  --text-54: 54px;
+  --rounded-8: 8px;
+  --rounded-12: 12px;
+  --rounded-20: 20px;
+ --rounded-10:10px;
+  --rounded-full: 99px;
+}
+* *::after *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  border: 1px solid var(--color-blou);
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.FashionHub-logo img {
+  width: 232px;
+  height: 40px;
+}
+.user1 {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--rounded-full);
+  background: none;
+
+  border: none;
+  object-fit: cover;
+  object-position: center;
+}
+.FashionHub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+.FashionHub-ful {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.FashionHub-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.FashionHub-btn {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.FashionHub-nav a {
+  color: var(--color-blou);
+  font-size: var(--text-16);
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 12px;
+  border-radius: var(--rounded-8);
+}
+.FashionHub-nav a:hover {
+  background-color: var(--color-pimary-gray);
+}
+.btn-header {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--rounded-full);
+  border: none;
+  display: grid;
+  place-content: center;
+}
+.btn-bag {
+  background-color: rgb(104, 62, 0, 10%);
+}
+.btn-notif {
+  background-color: rgb(13, 51, 86, 10%);
+}
+.texts span {
+  color: var(--color-pimary-gray);
+  font-size: var(--text-12);
+  font-weight: 400;
+}
+.texts h2 {
+  color: var(--color-blou);
+  font-size: var(--text-16);
+  font-weight: 700;
+  margin: 0;
+}
+.product-1 img {
+  border-radius: 16px;
+  width: 600px;
+  height: 705px;
+  object-fit: fill;
+}
+.products img {
+  border-radius: 14px;
+  width: 135px;
+  height: 135px;
+}
+.hero {
+  padding: 40px 80px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 80px;
+}
+}
+.hero-imgs {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.products {
+  display: flex;
+  align-items: center;
+  flex-direction: revert-layer;
+  gap: 18px;
+}
+.home{display: flex;
+  gap: 12px;
+  align-items: center;
+background-color: rgb(58,73,128,10%);
+padding: 8px 12px;
+border-radius: var(--rounded-8);
+color: var(--color-pimary-gray);}
+.home span:hover{
+    color: var(--color-blou-lite);
+}
+.Coast{display: flex;
+  gap: 112px;
+  align-items: center;
+  border-bottom:2px solid var(--color-pimary-gray);
+
+}
+.Coast-Dress h1{
+  color: var(--color-blou-block);
+  font-size: var(--text-28);
+  font-weight: 700;
+}
+.Coast-Dress p{
+  width: 280px;
+  font-size: var(--text-16);
+  color: var(--color-pimary-gray);
+  font-weight: 300;
+  display: flex;
+  gap: 12px;
+}
+.btn-like{
+  background-color:rgb(104, 62, 0, 10%) ;
+  border: none;
+  border-radius: var(--rounded-10);
+
+}
+.btn-arshive{
+  background-color:rgb(13, 51, 86, 10%) ;
+  border: none;
+  border-radius: var(--rounded-10);
+}
+.btn-share{
+  background-color: rgb(13, 51, 86, 10%);
+  border: none;
+  border-radius: var(--rounded-10);
+}
+.Coast-Dress:focus{
+  color: var(--color-blou);
+  width: 280px;
+  height: 19px;
+    border: 1px solid var(--color-blou);
+    padding: 8px 10px;
+}
+.FashionHub {
+  border-bottom: 1px solid var(--color-pimary-gray);
+}
