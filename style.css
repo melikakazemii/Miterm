@@ -177,6 +177,8 @@ color: var(--color-pimary-gray);}
   background-color:rgb(104, 62, 0, 10%) ;
   border: none;
   border-radius: var(--rounded-10);
+  display: flex;
+  align-items: center;
 
 }
 .btn-arshive{
@@ -199,3 +201,6 @@ color: var(--color-pimary-gray);}
 .FashionHub {
   border-bottom: 1px solid var(--color-pimary-gray);
 }
+.Coast-Dress2{display: flex;
+  gap: 12px;
+}}
