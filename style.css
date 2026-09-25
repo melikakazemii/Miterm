@@ -104,6 +104,7 @@ body {
 }
 .btn-bag {
   background-color: rgb(104, 62, 0, 10%);
+  position: relative;
 }
 .btn-notif {
   background-color: rgb(13, 51, 86, 10%);
@@ -143,9 +144,9 @@ body {
   gap: 32px;
 }
 .products {
-  display: flex;
-  align-items: center;
-  flex-direction: revert-layer;
+  display: grid;
+  
+  grid-template-columns: repeat(4,1fr);
   gap: 18px;
 }
 .home{display: flex;
@@ -558,3 +559,98 @@ textarea{
   .content{
     height: 256px;
   }
+  .Similar h2{
+    font-weight: 700;
+    font-size: var(--text-28);
+    color: var(--color-blou-block);
+  }
+  .similar-item img{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+  object-position: center;
+border-radius: 16px 16px 0 0;
+
+  }
+  .Similar h3{
+    font-size: var(--text-16);
+    font-weight: 500;
+    color: var(--color-pimary-gray);
+  }
+ .similar-item p{
+  font-weight: 700;
+  font-size: var(--text-18);
+  color: var(--color-blou-white);
+ }
+ .similar-item span{
+  font-size: var(--text-14);
+  font-weight: 400;
+  color: var(--color-pimary-gray);
+ }
+ .similar-item div img{
+  width: 16px;
+  height: 16px;
+
+ }
+  .similar-item div span{
+    font-size: var(--text-14);
+    font-weight: 400;
+  }
+  .similar-items{
+    display: flex;
+  
+  gap: 10px;
+  }
+  .lr-btn{
+    width: 36px;
+    height: 36px;
+    border-radius: var(--rounded-full);
+    position: absolute;
+  z-index: 10;
+  cursor: pointer;
+  border: none;
+  
+  align-self: center;
+  background-color: #fff;
+  
+  }
+  .Similar{
+    position: relative;
+    z-index: 1;
+  padding: 40px 88px 40px 70px;
+  }
+  .left{
+    left: 10px;
+    margin-left: 40px;
+  }
+  .right{
+    right: 10px;
+  }
+  .similar-item{
+    background-color:#F5F9FF;
+    border-radius: 16px
+  }
+.similar-item div{
+  display: flex;
+  align-items: center;
+}
+.lr-btn:active{
+  background-color: rgb(13, 51,86,30);
+}
+.btn-bag div{
+  width: 20px;
+  height: 20px;
+  border-radius:var(--rounded-full) ;
+  background-color: #0d3356;
+  position: absolute;
+  top:-5px;
+  right: -5px;
+}
+.btn-header:active{
+  background-color: #ddd;
+  backdrop-filter: blur(10px);
+}
+.bagcart-btn:active{
+  background-color:var(--color-pimary-gray);
+  backdrop-filter: blur(10px);
+}
